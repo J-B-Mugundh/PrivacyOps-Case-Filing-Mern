@@ -12,7 +12,7 @@ import { Navbar, NavbarBrand, Nav, Button, Container } from "react-bootstrap";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
